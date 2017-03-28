@@ -1,12 +1,19 @@
 # AngularJS Starter Project
 
-## Used tools for the project
+## Used tools
 
 - `bower` and Scripts injection for dependencies
 - `gulp` tasks
 - Use pure old JavaScript
 - Pure `CSS` for styling
 - `UI-Roter` module
+
+## Install dependencies
+
+```
+yarn install
+bower install
+``` 
 
 ## Development server
 
