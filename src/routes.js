@@ -10,6 +10,10 @@ function routesConfig($stateProvider, $urlRouterProvider, $locationProvider) {
   $stateProvider
     .state('app', {
       url: '/',
-      component: 'app'
+      component: 'login'
+    })
+    .state('login', {
+      url: '/login',
+      templateUrl: 'project/login/login.html'
     });
 }
